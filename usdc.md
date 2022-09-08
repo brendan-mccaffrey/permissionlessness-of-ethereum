@@ -66,7 +66,7 @@ We can see in the function header, the code makes a few checks, and `REVERT`s if
 - `notBlacklisted(from)` `notBlacklisted(to)` checks if either the sender or recipient is on the USDC blacklist.
 
 	This can be seen here
-" ```solidity "
+```java
 /**
      * @dev Throws if argument account is blacklisted
      * @param _account The address to check
@@ -78,7 +78,7 @@ We can see in the function header, the code makes a few checks, and `REVERT`s if
         );
         _;
     }
-"```"
+```
 
 
 The blacklist can be updated with the function
